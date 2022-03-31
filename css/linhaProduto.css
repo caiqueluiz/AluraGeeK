@@ -8,9 +8,87 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    height: 310px;
-
-    margin-left: 150px;
+    height: 350px;
+    margin-left: 152px;
     width: 80%;
-    border: 1px solid black;
+    
+}
+
+.teste1 {
+    width: 100%;
+}
+
+.topo-produto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 16px 0px;
+}
+
+.star-wars {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.btn-ver-mais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produto-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 150px;
+    height: 252px;
+    
+}
+
+
+.img-produto {
+    width: 150px;
+}
+
+
+.texto-produto {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
+
+.preco-produto {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: Bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.ver-mais-produto, a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #2A7AE4;
+    margin-right: 10px;
 }

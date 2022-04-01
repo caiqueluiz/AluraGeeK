@@ -4,7 +4,8 @@
 }
 
 .cab-box {
-    height: 115px;
+    display: flex;
+    height: 100px;
     background: #FFFFFF;
     display: flex;
     width: 100%;
